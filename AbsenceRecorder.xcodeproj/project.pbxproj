@@ -13,6 +13,8 @@
 		50ED7FD92978490E00EFDF36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50ED7FD82978490E00EFDF36 /* Preview Assets.xcassets */; };
 		50ED7FE42978490E00EFDF36 /* AbsenceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED7FE32978490E00EFDF36 /* AbsenceRecorderTests.swift */; };
 		50ED7FEF2978490E00EFDF36 /* AbsenceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED7FEE2978490E00EFDF36 /* AbsenceRecorderUITests.swift */; };
+		50ED800229784B6F00EFDF36 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED800129784B6F00EFDF36 /* Student.swift */; };
+		50ED800A29784C1F00EFDF36 /* Divison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED800929784C1F00EFDF36 /* Divison.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		50ED7FEA2978490E00EFDF36 /* AbsenceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ED7FEE2978490E00EFDF36 /* AbsenceRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITests.swift; sourceTree = "<group>"; };
 		50ED7FF02978490E00EFDF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50ED800129784B6F00EFDF36 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		50ED800929784C1F00EFDF36 /* Divison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divison.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 		50ED7FFF29784B2700EFDF36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				50ED800129784B6F00EFDF36 /* Student.swift */,
+				50ED800929784C1F00EFDF36 /* Divison.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50ED800A29784C1F00EFDF36 /* Divison.swift in Sources */,
 				50ED7FD42978490D00EFDF36 /* ContentView.swift in Sources */,
+				50ED800229784B6F00EFDF36 /* Student.swift in Sources */,
 				50ED7FD22978490D00EFDF36 /* AbsenceRecorderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
