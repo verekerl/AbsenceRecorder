@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    var divisions: [Division]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(divisions, id: \.self.code) { division in
+                Text("\(division.code)")
+                    .padding()
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(divisions: Division.examples)
     }
 }
